@@ -2,6 +2,8 @@
 <html data-init="no-js">
 <head>
 <meta charset="UTF-8" />
+<meta property="og:title" content="Tempus Fugit"/>
+<meta property="og:image" content="https://dseptem.github.io/tempus-fugit/tf.jpg"/>
 <title>Tempus Fugit</title>
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <!--
@@ -316,7 +318,7 @@ Macro.add('fadeout', {
 &lt;&lt;next 2s t8n&gt;&gt;... Cuando quizás... &lt;&lt;next 1s t8n&gt;&gt; No puedas elegir?
 
 &lt;&lt;next 5s t8n&gt;&gt;Disfruta del Silencio...
-&lt;&lt;silently&gt;&gt;&lt;&lt;if $esperas &gt; 9&gt;&gt;
+&lt;&lt;silently&gt;&gt;&lt;&lt;if $esperas &gt;= 9&gt;&gt;
 	&lt;&lt;set $header to &quot;gracias.jpg&quot;&gt;&gt;
 	&lt;&lt;goto &quot;3&quot;&gt;&gt;
 &lt;&lt;/if&gt;&gt;&lt;&lt;/silently&gt;&gt;
